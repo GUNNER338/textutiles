@@ -43,7 +43,7 @@ function App() {
         <Router>
       <div>
           <Routes>
-          <Route path="/about" element={<About />}>
+          <Route path="/about" element={<About mode={mode}/>}>
           </Route>
           <Route path="/" element={ <Textform
           setalert={setalert}
